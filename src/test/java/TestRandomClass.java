@@ -12,7 +12,7 @@ public class TestRandomClass {
 	@Test
 	public void test_ok() throws Exception {
 		int numero=5;
-		String exception="sfdnvrfg";
+		String exception="sfdnvrfgNoquieroVerEsto";
 		int resultado=-666;
 		assertEquals(resultado,claseRandom.method(numero, exception));
 	}
