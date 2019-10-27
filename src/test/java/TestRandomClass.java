@@ -12,7 +12,11 @@ public class TestRandomClass {
 	@Test
 	public void test_ok() throws Exception {
 		int numero=5;
+<<<<<<< HEAD
 		String exception="sfdnvrfgNoquieroVerEsto";
+=======
+		String exception="sfdnv";
+>>>>>>> parent of 8cca141... subimos_rama
 		int resultado=-666;
 		assertEquals(resultado,claseRandom.method(numero, exception));
 	}
