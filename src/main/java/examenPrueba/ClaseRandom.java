@@ -21,4 +21,16 @@ public class ClaseRandom {
 		}
 		return -666;
 	}
+	public int methodd2(int valor)throws Exception {
+		int a=valor*valor;
+		int b=valor+valor;
+		if(a>b*2) {
+			return a;
+		}else if(a<b*2) {
+			return b;
+		}else if(a==b*2) {
+			throw new Exception();
+		}
+		return 0;
+	}
 }
